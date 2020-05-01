@@ -45,5 +45,6 @@ def seq_of_primes():
 
         i += 1
 
+
 if __name__ == '__main__':
     main()

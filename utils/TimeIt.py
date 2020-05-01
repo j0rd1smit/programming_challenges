@@ -18,6 +18,6 @@ class TimeIt:
             mean = sum(measurements) / len(measurements)
             std = math.sqrt(sum((x - mean) ** 2 for x in measurements) / len(measurements))
 
-            print(f"[timeit] run {original_func} for {self.n_runs} run with mean of {mean} and std of {std}")
+            print(f"[timeit] run {original_func} for {self.n_runs} run with mean of {mean} ms and std of {std} ms")
 
         return wrappee
